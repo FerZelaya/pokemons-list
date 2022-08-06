@@ -1,0 +1,135 @@
+.edit-container {
+  background-color: #fff;
+  border: 2px solid #cacfd4;
+  border-radius: 3px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 22rem;
+  position: absolute;
+  top: 20%;
+  left: 50;
+  box-shadow: 0 0 0 2px #cacfd4;
+}
+
+.edit-container button {
+  border: none;
+  background-color: #6658f6;
+  width: 7rem;
+  height: 43px;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: lighter;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+  width: 100%;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 50%;
+  height: 80%;
+}
+
+.inputs div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.inputs div h4 {
+  margin-right: 16px;
+  font-weight: 500;
+}
+
+.search-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 50px;
+  width: 13rem;
+  border-radius: 7px;
+  border: 2px solid #cacfd4;
+}
+.magnifying {
+  margin-right: 10px;
+}
+
+.search-input-new {
+  outline: none;
+  font-size: 17px;
+  padding: 5px;
+  width: 70%;
+  border: none;
+  border-radius: 7px;
+  border: 2px solid #cacfd4;
+  height: 35px;
+  width: 11rem;
+}
+
+.search-input-new:focus {
+  border: none;
+  outline: 2px solid red;
+}
+
+/*Slider*/
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 18px;
+  width: 18px;
+  border-radius: 100px;
+  background: #6658f6;
+  cursor: pointer;
+}
+
+.slider {
+  -webkit-appearance: none;
+  margin-right: 16px;
+  width: 45%;
+  height: 7px;
+  background: linear-gradient(
+    90deg,
+    rgba(215, 220, 223, 1) 50%,
+    rgba(215, 220, 223, 1) 50%
+  );
+  border-radius: 10px;
+  outline: none;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+/**/
+
+.edit-actions-container {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  justify-content: space-evenly;
+}
